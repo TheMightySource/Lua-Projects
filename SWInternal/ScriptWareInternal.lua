@@ -1,4 +1,7 @@
-writefile("ScriptWareInternal.lua","")
+if isfile("ScriptWareInternal.lua") then
+	else
+	writefile("ScriptWareInternal.lua","") -- opens last script
+	end
 
 local SWV2 = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
