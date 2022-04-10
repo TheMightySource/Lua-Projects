@@ -1,4 +1,4 @@
-writefile("ScriptWareInternal.lua")
+writefile("ScriptWareInternal.lua","")
 
 local SWV2 = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
